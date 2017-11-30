@@ -1,0 +1,103 @@
+/*
+Theme Name: React PRO bGraphic Theme
+Theme URI: http://thethemefoundry.com/react/
+Description: Child theme for customizing React PRO.
+Version: 1.0
+Author: The Theme Foundry
+Author URI: http://thethemefoundry.com/
+Template: react_pro
+*/
+
+/* Import Stylesheets, don't remove these.
+-----------------------------------------------------------*/
+@import url("../react_pro/stylesheets/master.css");
+
+/* Required Wordpress Classes, don't remove these.
+-----------------------------------------------------------*/
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Make all custom CSS changes BELOW this line
+-----------------------------------------------------------*/
+/* Example: Change the sidebar background to blue:
+#sidebar {
+	background: blue;
+}
+*/
+
+/* Jetpack twitter */
+.footer-column a.timesince {
+	display: block;
+	text-align: right;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+/* Posts more-link should always be on a new line */
+a.more-link {
+	display: block;
+	margin-top: 15px;
+}
+
+
+/* Project fading on mourse over */
+.footer-column a img, .post-header a img {
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;	
+	transition: opacity 0.5s ease;
+	
+	opacity: 1;
+}
+
+.footer-column a h3, .post-header a h3 {
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	-ms-transition: opacity 0.5s ease;	
+	transition: opacity 0.5s ease;
+}
+
+.footer-column a:hover img, .post-header:hover a img {
+	opacity: 0.7;
+}
+
+.footer-column a:hover h3, .post-header a:hover h3 {
+	color: #275EA0;
+}
+
+/* Image caption fixes */
+/*.wp-caption p, .wp-caption-text {
+	font-size: 90%;
+	margin-top: -7px;
+	text-align: center;
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #E3E3E3;
+}
+
+.gallery-caption {
+	display: none;
+}*/
+
+/* Nicer blockquotes */
+blockquote {
+	border-left: 1px dotted #E3E3E3;
+}
+
+/* Subscribe buttons in footer */
+#copyright div.subscribe {
+	display: block;
+	float: right;
+	margin-right: -7px;
+}
+
+#copyright div.subscribe img {
+	margin-bottom: 0;
+}

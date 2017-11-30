@@ -1,0 +1,18 @@
+/* clear the floats for all our IE friends*/
+.clear, li.comment { zoom: 1; }
+
+/* Bottom padding instead of bottom margin on footer column */
+.footer-column {
+	padding-bottom: 30px;
+}
+
+/* Fix up the dropdowns so they look OK in IE7 */
+.nav ul {
+	margin: 0;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+}
+.nav li:hover ul a {
+	background: #fff;
+	border: none;
+}

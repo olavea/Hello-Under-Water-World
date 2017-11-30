@@ -1,0 +1,724 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: React WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-13 17:31-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;esc_attr_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:3
+msgid "404: Page Not Found"
+msgstr "404: Siden kan ikke vises"
+
+#: 404.php:5
+msgid ""
+"We are terribly sorry, but the URL you typed no longer exists. It might have "
+"been moved or deleted. Try searching the site:"
+msgstr ""
+"Vi beklager, men denne adressen er ikke gyldig lengre. Siden kan ha blitt "
+"flyttet eller slettet. Kanskje finner du det du leter etter ved å søke:"
+
+#: archive.php:6
+#, php-format
+msgid "Posts from the  &#8216;%s&#8217; Category"
+msgstr "Innlegg fra &#8216;%s&#8217; Category"
+
+#: archive.php:8
+#, php-format
+msgid "Posts tagged &#8216;%s&#8217;"
+msgstr "Innlegg med merkelappene &#8216;%s&#8217;"
+
+#: archive.php:10 archive.php:12 archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv for %s"
+
+#: archive.php:16
+#, php-format
+msgid "Posts by %s"
+msgstr "Innlegg skrevet av %s"
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: archive.php:23
+msgid "No posts found."
+msgstr "Ingen innlegg funnet."
+
+#: attachment.php:26
+msgid "&larr; Previous image"
+msgstr "&larr; Forrige bilde"
+
+#: attachment.php:27
+msgid "Next image &rarr;"
+msgstr "Neste bilde &rarr;"
+
+#: attachment.php:30
+msgid "Return to gallery"
+msgstr "Tilbake til bildegalleri"
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Denne posten er beskyttet med passord."
+
+#: comments.php:10
+msgid "No Comments"
+msgstr "Ingen kommentarer"
+
+#: comments.php:10
+msgid "One Comment"
+msgstr "En kommentar"
+
+#: comments.php:10
+#, php-format
+msgid "%s Comments"
+msgstr "%s Kommentarer"
+
+#: comments.php:13
+msgid "Post a comment"
+msgstr "Skriv en kommentar"
+
+#: comments.php:21
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Eldre kommentarer"
+
+#: comments.php:22
+msgid "Newer Comments &raquo;"
+msgstr "Nyere kommentarer &raquo;"
+
+#: comments.php:25
+msgid "Trackbacks &amp; Pingbacks"
+msgstr ""
+
+#: comments.php:31
+msgid "&laquo; Older Pingbacks"
+msgstr "&laquo; Eldre pingbacks"
+
+#: comments.php:32
+msgid "Newer Pingbacks &raquo;"
+msgstr "Nyere pingbacks &raquo;"
+
+#: comments.php:36 comments.php:39
+msgid "Comments are closed."
+msgstr "Kommentarfeltet er stengt"
+
+#: comments.php:43
+msgid "No comments yet"
+msgstr "Ingen kommentarer enda"
+
+#: comments.php:53
+msgid "Comment"
+msgstr "Kommentar"
+
+#: comments.php:58
+msgid "Subscribe to this comment feed via RSS"
+msgstr "Abonner på denne kommentarens feed via RSS"
+
+#: comments.php:59
+msgid "Basic HTML is allowed. Your email address will not be published."
+msgstr "Enkel HTML er tillatt. E-post adressen din vil ikke bli publisert."
+
+#: comments.php:67
+msgid "Name <span>(required)</span>:"
+msgstr "Navn <span>(obligatorisk)</span>:"
+
+#: comments.php:68
+msgid "Name:"
+msgstr "Navn:"
+
+#: comments.php:78
+msgid "Email <span>(required)</span>:"
+msgstr "E-post <span>(obligatorisk)</span>:"
+
+#: comments.php:79
+msgid "Email:"
+msgstr "E-post:"
+
+#: comments.php:87
+msgid "Website:"
+msgstr "Hjemmeside:"
+
+#: comments.php:92
+msgid "Submit Comment"
+msgstr "Kommenter"
+
+#: comments.php:93
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+"Logget inn som <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Logg ut "
+"av denne kontoen\">Logg ut &raquo;</a>"
+
+#: comments.php:94
+msgid "Leave a Reply"
+msgstr "Skriv et svar"
+
+#: comments.php:95
+#, php-format
+msgid "Leave a comment to %s"
+msgstr "Skriv en kommetar til %s"
+
+#: footer.php:57
+msgid "Latest news"
+msgstr "Siste blogginnlegg"
+
+#: footer.php:73 single.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanentlenke til %s"
+
+#: footer.php:75 single.php:13
+msgid "F jS, Y"
+msgstr ""
+
+#: footer.php:95
+msgid "First footer"
+msgstr ""
+
+#: footer.php:96
+msgid ""
+"Head over to Appearance &rarr; Widgets and add a new widget to Footer 1 to "
+"replace this text."
+msgstr ""
+
+#: footer.php:101
+msgid "Second footer"
+msgstr ""
+
+#: footer.php:102
+msgid ""
+"Head over to Appearance &rarr; Widgets and add a new widget to Footer 2 to "
+"replace this text."
+msgstr ""
+
+#: footer.php:107
+msgid "Third footer"
+msgstr ""
+
+#: footer.php:108
+msgid ""
+"Head over to Appearance &rarr; Widgets and add a new widget to Footer 3 to "
+"replace this text."
+msgstr ""
+
+#: footer.php:120
+#, php-format
+msgid ""
+"<a href=\"%1$s\">React Theme</a> by <a href=\"%2$s\">The Theme Foundry</a>"
+msgstr ""
+
+#: header.php:8
+msgid "Page Not Found |"
+msgstr "Siden kan ikke vises |"
+
+#: header.php:10 search.php:2
+#, php-format
+msgid "Search results for '%s'"
+msgstr "Søkeresultater for '%s'"
+
+#: header.php:20
+#, php-format
+msgid "Design is copyright %1$s The Theme Foundry"
+msgstr "Oprinnelig design av %1$s The Theme Foundry"
+
+#: header.php:33
+msgid "Skip to content"
+msgstr "Hopp til innhold"
+
+#: search.php:8
+#, php-format
+msgid ""
+"Sorry, your search for \"%s\" did not turn up any results. Please try again."
+msgstr "Beklager, men ditt søk \"%s\" ga ingen resultater. Prøv igjen."
+
+#: searchform.php:3 searchform.php:5
+msgid "Search"
+msgstr "Søk"
+
+#: sidebar.php:10
+msgid "Recent Articles"
+msgstr "Siste innlegg"
+
+#: single.php:22
+msgid "Read more"
+msgstr "Les mer"
+
+#: single.php:23
+msgid "Edit this"
+msgstr ""
+
+#: single.php:27
+#, php-format
+msgid "Filed under %s."
+msgstr "Arkivert under %s."
+
+#: tm-archives.php:15
+msgid "Archives"
+msgstr "Arkiv"
+
+#: tm-archives.php:17
+msgid "Recent posts"
+msgstr "Siste innlegg"
+
+#: tm-archives.php:26
+msgid "Monthly archives"
+msgstr "Månedsarkiv"
+
+#: tm-sitemap.php:13
+msgid "Sitemap"
+msgstr "Sidekart"
+
+#: tm-sitemap.php:15
+msgid "Pages"
+msgstr "Sider"
+
+#: tm-sitemap.php:19
+msgid "Categories"
+msgstr "Kategorier"
+
+#: tm-sitemap.php:23
+msgid "Monthly Archives"
+msgstr "Månedsarkiv"
+
+#: tmpart-loop.php:11
+msgid "Featured"
+msgstr "Aktuelt"
+
+#: tmpart-loop.php:30
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#: tmpart-loop.php:30
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: tmpart-loop.php:30
+msgid "% Comments"
+msgstr "% kommentar"
+
+#: tmpart-loop.php:36
+msgid "&larr; Newer entries"
+msgstr "&larr; Nyere innlegg"
+
+#: tmpart-loop.php:37
+msgid "Older entries &rarr;"
+msgstr "Eldre innlegg &rarr;"
+
+#: tmpart-subscribe.php:7
+msgid "Flickr"
+msgstr ""
+
+#: tmpart-subscribe.php:12
+msgid "Google+"
+msgstr ""
+
+#: tmpart-subscribe.php:17
+msgid "Facebook"
+msgstr ""
+
+#: tmpart-subscribe.php:22
+msgid "Twitter"
+msgstr ""
+
+#: tmpart-subscribe.php:26
+msgid "RSS Feed"
+msgstr ""
+
+#: tmpart-subscribe.php:26
+msgid "RSS"
+msgstr ""
+
+#: functions/comments.php:19
+msgid "<strong>Please Note:</strong> Your comment is awaiting moderation."
+msgstr ""
+"<strong>Legg merke til:</strong> Din kommentar venter på å bli moderert."
+
+#: functions/react-extend.php:248
+msgid "Sidebar"
+msgstr ""
+
+#: functions/react-extend.php:256
+msgid "Footer 1"
+msgstr ""
+
+#: functions/react-extend.php:264
+msgid "Footer 2"
+msgstr ""
+
+#: functions/react-extend.php:272
+msgid "Footer 3"
+msgstr ""
+
+#: functions/react-extend.php:301
+msgid "Top Navigation"
+msgstr ""
+
+#: functions/react-extend.php:322
+msgid "Custom logo image"
+msgstr ""
+
+#: functions/react-extend.php:326
+msgid "Enable custom logo image"
+msgstr ""
+
+#: functions/react-extend.php:328
+msgid "Check to use a custom logo in the header."
+msgstr ""
+
+#: functions/react-extend.php:333
+msgid "Logo URL"
+msgstr ""
+
+#: functions/react-extend.php:335
+msgid "Upload an image or enter an URL for your image."
+msgstr ""
+
+#: functions/react-extend.php:342
+msgid "Logo image <code>&lt;alt&gt;</code> tag"
+msgstr ""
+
+#: functions/react-extend.php:344
+msgid "Specify the <code>&lt;alt&gt;</code> tag for your logo image."
+msgstr ""
+
+#: functions/react-extend.php:349
+msgid "Hide tagline"
+msgstr ""
+
+#: functions/react-extend.php:351
+msgid "Check to hide your tagline on the front page."
+msgstr ""
+
+#: functions/react-extend.php:356
+msgid "Subscribe links"
+msgstr ""
+
+#: functions/react-extend.php:360
+msgid "Enable Twitter"
+msgstr ""
+
+#: functions/react-extend.php:362
+msgid ""
+"Hip to Twitter? Check this box. Please set your Twitter username in the "
+"Twitter menu."
+msgstr ""
+
+#: functions/react-extend.php:367
+msgid "Enable Facebook"
+msgstr ""
+
+#: functions/react-extend.php:369
+msgid "Check this box to show a link to your Facebook page."
+msgstr ""
+
+#: functions/react-extend.php:374
+msgid "Enable Flickr"
+msgstr ""
+
+#: functions/react-extend.php:376
+msgid "Check this box to show a link to Flickr."
+msgstr ""
+
+#: functions/react-extend.php:381
+msgid "Enable Google+"
+msgstr ""
+
+#: functions/react-extend.php:383
+msgid "Check this box to show a link to Google+."
+msgstr ""
+
+#: functions/react-extend.php:388
+msgid "Disable all"
+msgstr ""
+
+#: functions/react-extend.php:390
+msgid ""
+"Check this box to hide all follow icons (including RSS). This option "
+"overrides any other settings."
+msgstr ""
+
+#: functions/react-extend.php:395
+msgid "Twitter name"
+msgstr ""
+
+#: functions/react-extend.php:397
+msgid "Enter your Twitter name."
+msgstr ""
+
+#: functions/react-extend.php:402
+msgid "Facebook link"
+msgstr ""
+
+#: functions/react-extend.php:404
+msgid "Enter your Facebook link."
+msgstr ""
+
+#: functions/react-extend.php:409
+msgid "Flickr link"
+msgstr ""
+
+#: functions/react-extend.php:411
+msgid "Enter your Flickr link."
+msgstr ""
+
+#: functions/react-extend.php:416
+msgid "Google+ link"
+msgstr ""
+
+#: functions/react-extend.php:418
+msgid "Enter your Google+ link."
+msgstr ""
+
+#: functions/react-extend.php:423
+msgid "Typography"
+msgstr ""
+
+#: functions/react-extend.php:427
+msgid "Primary font"
+msgstr ""
+
+#: functions/react-extend.php:428
+msgid ""
+"Fallback font stack is \"Helvetica, Arial, sans-serif\". Added page weight "
+"is in parentheses."
+msgstr ""
+
+#: functions/react-extend.php:433
+msgid "Droid Sans (75kb)"
+msgstr ""
+
+#: functions/react-extend.php:434
+msgid "Droid Serif (77kb)"
+msgstr ""
+
+#: functions/react-extend.php:435
+msgid "Helvetica"
+msgstr ""
+
+#: functions/react-extend.php:436
+msgid "Kameron (90kb)"
+msgstr ""
+
+#: functions/react-extend.php:437
+msgid "Lato (49kb)"
+msgstr ""
+
+#: functions/react-extend.php:438
+msgid "Metrophobic (87kb)"
+msgstr ""
+
+#: functions/react-extend.php:439
+msgid "Muli (81kb)"
+msgstr ""
+
+#: functions/react-extend.php:442
+msgid "Layout"
+msgstr ""
+
+#: functions/react-extend.php:446
+msgid "Disable sidebar"
+msgstr ""
+
+#: functions/react-extend.php:448
+msgid "Completely remove the sidebar from your blog."
+msgstr ""
+
+#: functions/react-extend.php:453
+msgid "Show the widgets footer"
+msgstr ""
+
+#: functions/react-extend.php:455
+msgid "Set the visibility of the widgets footer."
+msgstr ""
+
+#: functions/react-extend.php:459 functions/react-extend.php:473
+#: functions/react-extend.php:487
+msgid "Nowhere"
+msgstr ""
+
+#: functions/react-extend.php:460 functions/react-extend.php:474
+#: functions/react-extend.php:488
+msgid "Everywhere"
+msgstr ""
+
+#: functions/react-extend.php:461 functions/react-extend.php:475
+#: functions/react-extend.php:489
+msgid "Everywhere but the front page"
+msgstr ""
+
+#: functions/react-extend.php:462 functions/react-extend.php:476
+#: functions/react-extend.php:490
+msgid "On all pages"
+msgstr ""
+
+#: functions/react-extend.php:463 functions/react-extend.php:477
+#: functions/react-extend.php:491
+msgid "On all pages but the front page"
+msgstr ""
+
+#: functions/react-extend.php:464 functions/react-extend.php:478
+#: functions/react-extend.php:492
+msgid "On the front page only"
+msgstr ""
+
+#: functions/react-extend.php:467
+msgid "Show the latest news footer"
+msgstr ""
+
+#: functions/react-extend.php:469
+msgid "Set the visibility of the latest news footer."
+msgstr ""
+
+#: functions/react-extend.php:481
+msgid "Show the recent projects footer"
+msgstr ""
+
+#: functions/react-extend.php:483
+msgid "Set the visibility of the recent projects footer."
+msgstr ""
+
+#: functions/react-extend.php:495
+msgid "Projects"
+msgstr ""
+
+#: functions/react-extend.php:499
+msgid "Hide project items on the blog"
+msgstr ""
+
+#: functions/react-extend.php:501
+msgid ""
+"Posts with the Gallery post format are displayed on any pages using the "
+"\"Projects\" page template. They are also shown on the blog. Check this box "
+"to hide them from the blog."
+msgstr ""
+
+#: functions/react-extend.php:506
+msgid "Singular project name"
+msgstr ""
+
+#: functions/react-extend.php:508
+msgid "Used on the blog to label the project."
+msgstr ""
+
+#: functions/react-extend.php:513
+msgid "Plural project name"
+msgstr ""
+
+#: functions/react-extend.php:515
+msgid "Used for the recent projects footer title."
+msgstr ""
+
+#: functions/react-extend.php:520
+msgid "Sort projects by"
+msgstr ""
+
+#: functions/react-extend.php:522
+msgid ""
+"By default your project items are sorted by date on pages using the Projects "
+"page template. Use this option to change the sort order. <br /><br /"
+"><strong>NOTE:</strong> This does not affect the Recent Projects footer "
+"(controlled in the Layout section)."
+msgstr ""
+
+#: functions/react-extend.php:526
+msgid "Date"
+msgstr ""
+
+#: functions/react-extend.php:527
+msgid "Title"
+msgstr ""
+
+#: functions/react-extend.php:528
+msgid "Last modified"
+msgstr ""
+
+#: functions/react-extend.php:529
+msgid "Post ID"
+msgstr ""
+
+#: functions/react-extend.php:530
+msgid "Randomly"
+msgstr ""
+
+#: functions/react-extend.php:533
+msgid "Sort order"
+msgstr ""
+
+#: functions/react-extend.php:535
+msgid ""
+"Choose a sort order for your Projects page. Descending (3, 2, 1) or "
+"Ascending (a, b, c)."
+msgstr ""
+
+#: functions/react-extend.php:539
+msgid "Descending"
+msgstr ""
+
+#: functions/react-extend.php:540
+msgid "Ascending"
+msgstr ""
+
+#: functions/react-extend.php:543
+msgid "Footer"
+msgstr ""
+
+#: functions/react-extend.php:547
+msgid "Copyright notice"
+msgstr ""
+
+#: functions/react-extend.php:549
+msgid "Your name or the name of your business."
+msgstr ""
+
+#: functions/ttf-admin.php:62 functions/ttf-admin.php:121
+#: functions/ttf-admin.php:122 functions/ttf-admin.php:144
+msgid "Theme Options"
+msgstr ""
+
+#: functions/ttf-admin.php:134
+#, php-format
+msgid "%s settings saved!"
+msgstr ""
+
+#: functions/ttf-admin.php:138
+#, php-format
+msgid "%s settings reset."
+msgstr ""
+
+#: functions/ttf-admin.php:155 functions/ttf-admin.php:285
+msgid "Save changes"
+msgstr ""
+
+#: functions/ttf-admin.php:164
+msgid "Edit"
+msgstr ""
+
+#: functions/ttf-admin.php:236
+msgid "show color picker"
+msgstr ""
+
+#: functions/ttf-admin.php:236
+msgid "hide color picker"
+msgstr ""
+
+#: functions/ttf-admin.php:290
+msgid "Save all changes"
+msgstr ""
+
+#: functions/ttf-admin.php:298
+msgid "Reset all options"
+msgstr ""

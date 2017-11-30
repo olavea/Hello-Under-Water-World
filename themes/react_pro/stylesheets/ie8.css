@@ -1,0 +1,191 @@
+/* duplicated media queries */
+
+@media screen and (min-width: 640px) {
+
+	/* Basic structure
+	---------------------------------------*/
+	#wrapper {
+		padding: 30px;
+		/* Grid
+			padding: 0;
+			background: url(../images/grid.png) repeat-y 0 0;
+		*/
+	}
+	#content {
+		margin: 30px 0 15px 0;
+	}
+	#content.blog {
+		float: left;
+		width: 78.125%; /* 750 / 960 */
+	}
+	#sidebar {
+		margin: 30px 0 15px 0;
+		float: right;
+		width: 14.5833333%; /* 140 / 960 */
+	}
+	#header {
+		padding: 0 0 30px 0;
+		text-align: left;
+	}
+	#title {
+		max-width: 43.75%; /* 420 / 960 */
+		float: left;
+	}
+	#with-sidebar #content {
+		width: 78%;
+	}
+
+	/* Navigation
+	---------------------------------------*/
+	#navigation {
+		max-width: 50.8333333%; /* 488 / 960 */
+		float: right;
+		margin: 0;
+		font-size: 1em;
+	}
+	#header.logo #navigation {
+		margin: 5px 0 0 0;
+	}
+
+	/* Description
+	---------------------------------------*/
+	#tagline h2 {
+		font-size: 1.142857143em; /* 16 / 14 */
+	}
+
+	/* Page templates
+	---------------------------------------*/
+	.page-title {
+		margin: 0 0 20px 0;
+		font-size: 1.571428571em; /* 22 / 14 */
+	}
+	div.projects-header {
+		padding-bottom: 15px;
+	}
+
+	/* Post / page
+	---------------------------------------*/
+	.post {
+		margin-bottom: 30px;
+	}
+	.post-header h2.post-title {
+		margin-top: 0;
+	}
+	.post-header {
+		float: left;
+		width: 27.0833333%; /* 260 / 960 */
+	}
+	.entry.entry-post,
+	.post-footer,
+	.pagination.index {
+		margin: 0;
+		width: 63.5416667%; /* 610 / 960 */
+		margin-left: 36.4583333%; /* 350 / 960 */
+	}
+	.entry-post-image {
+		margin-top: 20px;
+		width: 73.0769231%; /* 190 / 260 */
+	}
+	#content.blog .post-header {
+		width: 25.3333333%; /* 190 / 750 */
+	}
+	#content.blog .entry.entry-post,
+	#content.blog .post-footer,
+	#content.blog .pagination {
+		width: 65.3333333%; /* 490 / 750 */
+		margin-left: 34.6666667%; /* 260 / 750 */
+	}
+	#content.blog .entry-post-image {
+		width: 63.1578947%; /* 120 / 190 */
+	}
+	.entry-page.thumbnail {
+		float: left;
+		width: 51.0416667%; /* 490 / 960 */
+	}
+	.entry-page-image {
+		float: right;
+		width: 41.6666667%; /* 400 / 960 */
+	}
+
+	/* Comments
+	---------------------------------------*/
+	div.c-grav {
+		float: left;
+		width: 7.2916667%; /* 70 / 960 */
+	}
+	div.c-body,
+	form#commentform,
+	ul.children {
+		width: 63.5416667%; /* 610 / 960 */
+		margin-left: 36.4583333%; /* 350 / 960 */
+	}
+	body.page div.c-body {
+		width: 85.4166667%; /* 820 / 960 */
+		margin-left: 14.5833333%; /* 140 / 960 */
+	}
+	body.page form#commentform,
+	body.single-format-gallery form#commentform {
+		margin-left: 0;
+		width: 51.0416667%; /* 490 / 960 */
+	}
+	body.page div#respond,
+	body.single-format-gallery div#respond {
+		margin-top: 30px;
+	}
+	input.text-input,
+	#comment {
+		width: 98.3333333%; /* 944 / 960 */
+		padding: 0.8333333%; /* 8 / 960  */
+	}
+	input.text-input {
+		width: 98.125%; /* 942 / 960 */
+	}
+	#content.blog div.c-grav {
+		width: 9.3333333%; /* 70 / 750 */
+	}
+	#content.blog div.c-body,
+	#content.blog form#commentform,
+	#content.blog ul.children {
+		width: 65.3333333%; /* 490 / 750 */
+		margin-left: 34.6666667%; /* 260 / 750 */
+	}
+	#content.blog input.text-input,
+	#content.blog #comment {
+		width: 97.8666667%; /* 734 / 750 */
+		padding: 1.0666667%; /* 8 / 750  */
+	}
+	#content.blog input.text-input {
+		width: 97.6%; /* 732 / 750 */
+	}
+
+	/* Footer and project columns
+	---------------------------------------*/
+	.footer-column {
+		float: left;
+		margin: 30px 9.375% 15px 0; /* 90 / 960 */
+		width: 27.0833333%; /* 260 / 960 */
+	}
+	.footer-column.projects-column {
+		margin: 20px 9.375% 20px 0; /* 90 / 960 */
+	}
+	.footer-column.footer-3,
+	.projects-column.project-three {
+		margin-right: 0;
+	}
+	.projects-column.project-one {
+		clear: both;
+	}
+}
+
+/* Hide WP backgrounds
+---------------------------------------*/
+@media screen and (max-width: 1200px) {
+	body {
+		background: none !important;
+	}
+}
+
+/* Prevent stretching of full-size images with height and width attributes in IE8 */
+img {
+	width: auto;
+}

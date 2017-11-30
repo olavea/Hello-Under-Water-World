@@ -1,0 +1,67 @@
+/*
+Theme Name: Ola Vea
+Theme URI: http://thethemefoundry.com/react/
+Description: Child theme for customizing React PRO.
+Version: 1.0
+Author: The Theme Foundry
+Author URI: http://thethemefoundry.com/
+Template: react_pro
+*/
+
+/* Import Stylesheets, don't remove these.
+-----------------------------------------------------------*/
+@import url("../react_pro_bGraphic/style.css");
+
+/* remove dates */
+.post-header p {
+	display: none;
+}
+
+
+#header {
+	text-align: center;
+}
+
+#title {
+	max-width: 100%;
+	float: none;
+}	
+
+#navigation {
+	max-width: 100%;
+	float: none;
+}
+
+/* Language selector */
+.icl_post_in_other_langs {
+	font-size: 80%;
+	text-align: right;
+}
+
+#language-list {
+	text-align: right;
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+#language-list li {
+	display: inline;
+	margin-left: 1em;
+}
+
+#language-list li img {
+	margin-bottom: 0;
+	margin-right: 0.5em;
+}
+
+@media screen and (max-width: 640px) {	
+	#language-list {
+		text-align: center;
+		margin-top: -5px;
+	}
+}
+
+/* Small letter for norwegian pagination */
+.pagination {
+	text-transform: lowercase;
+}

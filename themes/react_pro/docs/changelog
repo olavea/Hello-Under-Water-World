@@ -1,0 +1,48 @@
+== Changelog ==
+= 1.3.3 =
+* Added small tag styling
+* Removed monthly limit on Sitemap template
+* Fixed bug with tax_query being overwritten
+* Recent project footer titles are now links
+* Removed stats code option
+* Adding missing translations to template
+
+= 1.3.2 =
+* Fixed 'with sidebar' template in IE8
+* Added Google+ icon
+* Fixed bug with nested comment display
+
+= 1.3.1 =
+* Fixed FitVids to cap video embed size if user specifies it
+* Stylistic updates to categories on archives page
+
+= 1.3 =
+* Made 'no posts found' text translatable
+* Added page template with sidebar
+* Added multiple project page support via [gallery] shortcode
+* Hiding 'leave a comment' link when comments are disabled
+* Fixed blockquote styling that conflicted with featured images
+* Added FitVids JavaScript to make responsive videos cleaner
+* Fixed image stretching in old versions of Internet Explorer
+
+= 1.2.1 =
+* Fixed some bugs in the attachment template
+
+= 1.2 =
+* Fixed content width to "full" when no thumbnail is set on a page or post
+* Fixed footer spacing when there are multiple widgets
+* Allowing comments on pages and gallery/project posts
+
+= 1.1 =
+* Added support for galleries/attachments on posts
+* Various spacing fixes/cleanup
+* Made long post titles wrap instead of running into sidebar
+* Added indicator for sticky posts
+* Added styling for tables and definition lists
+* Added dropdown menu support
+
+= 1.0.1 =
+* Use an <h3> so the title in the fallback sidebar is properly styled.
+
+= 1.0 =
+* Initial release!
